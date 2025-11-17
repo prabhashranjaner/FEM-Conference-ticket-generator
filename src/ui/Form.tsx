@@ -7,7 +7,7 @@ import { useStateData } from "../context/StateContextProvider";
 const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
 
   @media screen and (min-width: 786px) {
     width: 450px;

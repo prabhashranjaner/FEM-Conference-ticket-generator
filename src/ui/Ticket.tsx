@@ -131,8 +131,8 @@ const Ticket = () => {
           <h4>{state.name}</h4>
 
           <GitHub>
-            <img src="/public/images/icon-github.svg" alt="github" />
-            <span> {state.github}</span>
+            <img src="/images/icon-github.svg" alt="github" />
+            <span> @{state.github}</span>
           </GitHub>
         </UserInfo>
       </Bottom>
